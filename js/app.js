@@ -30,9 +30,18 @@ for (i =60; i <=100; i++) {
 };
 
 <!-- My understanding of this question is that it wants me to test the function with different arguments in the console. -->
-*/
+
 let tellFortune = function (N, Z, Y, X) {
     console.log("You will be a "+ X + " in " + Y +", and married to "+ Z +" with "+ N + " kids.")
     
+}
+*/
+
+let content = [1,2,3,4,5];
+
+let blah = function() {
+    let ptOne = Math.max.apply( Math, content ) - 1;
+    let ptTwo = Math.min.apply( Math, content ) + 1;
+    console.log (ptTwo + " , " + ptOne)
 }
 
