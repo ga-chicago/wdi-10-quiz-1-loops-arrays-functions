@@ -5,7 +5,7 @@
 for(let i = 1; i<10; i++){
   console.log(i*9);
 }
-
+// I don't know hot to use "\t" there is a table function "console.table()" but I would need more time to learn how to use it. I would need an array of all answers.
 for(let i = 1; i<10; i++){
   var product = 1;
   for(let j = 0;j<10; j++)
@@ -31,7 +31,7 @@ Call that function for a few different scores and log the result to make sure it
 
 #### Given the above example, does your function need to console.log() or return a value?
 */
-// function needs to console.log to display what is the example output but can also return value
+// function needs to console.log to display what is the example output above but can also return value
 function assignGrade(num)
 {
   var grade = "X";
@@ -63,9 +63,9 @@ function assignGrade(num)
 
 
 // I don't know how to console log the variable for the individual grades and the value for the letter grades on one line in one single function. I can do it with two functions.
-//I will assume the question mean not to dispay the variable for the individual grades. (grade1, grade2, grade3) but a string for variable "grade", which is what Julian said was so.
+//I will assume the question means not to dispay the variable for the individual grades. (grade1, grade2, grade3) but a string "grade", which is what Julian said was so.
 
-// It doesn't need to return a value, but if you want to use the variables later:
+
 
 
 let grade1 = assignGrade(99);
