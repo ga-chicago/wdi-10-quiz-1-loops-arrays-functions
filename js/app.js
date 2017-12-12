@@ -1,7 +1,7 @@
 function multLoop() {
-	for (let i = 0; i <= 10; i++) {
-		let temp = i * 9;
-		console.log(i + " * 9 = " + temp + ".");
+	for (let i = 0; i <= 100; i++) {
+		// let temp = i * 9;
+		// console.log(i + " * 9 = " + temp + ".");
 	}
 }
 
@@ -61,11 +61,32 @@ function characterOccurence(str, char) {
 	console.log(char+" occurs "+timesOcc+" times in "+ str+".");
 }
 
+let countryNames = ['america', 'canada', 'australia', 'pakistan'];
 
+function longestCountryName(arr) {
+	let longest = '';
+	let tempLength = 0;
+	for (let i = 0; i <= arr.length - 1; i++) {
+		if (arr[i].length > tempLength) {
+			tempLength = arr[i].length;
+			longest = arr[i];
+		}
+	}
+	return longest;
+}
 
+// console.log(longestCountryName(countryNames));
 
-
-
+function reverseNumber(num) {
+	let arr = num.toString().trim().split('');
+	let strTemp = '';
+	for (let i = arr.length - 1; i >= 0; i--) {
+		strTemp += arr[i];
+	}
+	let solution = parseInt(strTemp, 10);
+	console.log("The number reversed is "+solution+".");
+	return solution;
+}
 
 
 
