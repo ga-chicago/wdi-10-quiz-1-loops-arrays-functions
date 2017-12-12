@@ -36,22 +36,32 @@ console.log('Time And Relative Dimension In Space');
 // Because we're using return we're already getting the output we want and don't need to console.log anything.
 
 // Question 3
-function assignGrade(score) {
-	if (score >= 90) {
-		console.log("For " + score + " you get an A.");
-	} else if (score >= 80) {
-		console.log("For " + score + " you get a B.");
-	} else if (score >= 70) {
-		console.log("For " + score + " you get a C.");
-	} else if (score >= 60) {
-		console.log("For " + score + " you get a D.");
-	} else if (score <=59) {
-		console.log("For " + score + " you get an F.");
-	}
+// function assignGrade(score) {
+// 	if (score >= 90) {
+// 		console.log("For " + score + " you get an A.");
+// 	} else if (score >= 80) {
+// 		console.log("For " + score + " you get a B.");
+// 	} else if (score >= 70) {
+// 		console.log("For " + score + " you get a C.");
+// 	} else if (score >= 60) {
+// 		console.log("For " + score + " you get a D.");
+// 	} else if (score <=59) {
+// 		console.log("For " + score + " you get an F.");
+// 	}
 	
+// }
+
+// Question 4
+function tellFortune(numChild, partName, city, job) {
+	console.log("You will be a " + job + " in " + city + ", and married to " + partName + " with " + numChild + " kids.")
 }
 
+tellFortune(2, "Jon", "Chicago", "Web Developer")
+tellFortune(3, "Michael", "Louisville", "Web Designer")
+tellFortune(1, "David", "Pilsen", "Medieval History Research Assistant")
+tellFortune(0, "Kyle", "Schaumburg", "Novelist")
 
+// Question 4
 
 
 
