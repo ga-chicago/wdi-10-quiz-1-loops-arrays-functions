@@ -8,7 +8,7 @@ for (a = 0; a <= 10; a++) {
 }
 
 <!-- My understanding of this question is that it wants me to create a function that will assign a letter grade based on the number imputed as the argument. -->
-*/
+
 
 let grade = function (num) {
     if (num >= 90) {
@@ -28,3 +28,11 @@ let grade = function (num) {
 for (i =60; i <=100; i++) {
     console.log("You get a " + grade(i))
 };
+
+<!-- My understanding of this question is that it wants me to test the function with different arguments in the console. -->
+*/
+let tellFortune = function (N, Z, Y, X) {
+    console.log("You will be a "+ X + " in " + Y +", and married to "+ Z +" with "+ N + " kids.")
+    
+}
+
