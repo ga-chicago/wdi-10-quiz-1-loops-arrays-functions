@@ -35,7 +35,7 @@ let tellFortune = function (N, Z, Y, X) {
     console.log("You will be a "+ X + " in " + Y +", and married to "+ Z +" with "+ N + " kids.")
     
 }
-*/
+
 
 let content = [1,2,3,4,5];
 
@@ -45,3 +45,15 @@ let blah = function() {
     console.log (ptTwo + " , " + ptOne)
 }
 
+*/
+let local = [];
+
+let longest = function (a,b,c,d,e) {
+    
+    local.push(a,b,c,d,e);
+    let ptOne = Math.max.apply( Math, local.length );
+// return ptOne;
+    
+    
+    
+}
