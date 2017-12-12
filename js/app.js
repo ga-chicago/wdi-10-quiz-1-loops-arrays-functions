@@ -1,7 +1,16 @@
 function multLoop() {
 	for (let i = 0; i <= 100; i++) {
-		// let temp = i * 9;
-		// console.log(i + " * 9 = " + temp + ".");
+		let temp = i * 9;
+		console.log(i + " * 9 = " + temp + ".");
+	}
+}
+
+function timesTable() {
+	for (let i = 1; i <= 10; i++) {
+		for (let j = 1; j <= 10; j++) {
+			let tempIn = j * i;
+			console.log(i+" * "+ j + " = " + tempIn + ".");
+		}
 	}
 }
 
