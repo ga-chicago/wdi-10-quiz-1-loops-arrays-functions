@@ -8,7 +8,7 @@ for(let i = 1; i<10; i++){
 
 for(let i = 1; i<10; i++){
   var product = 1;
-  for(let j = 1;j<10; j++)
+  for(let j = 0;j<10; j++)
   {
    product = (i * j);
   console.log(i+ " times "+ j +" equals " + product + ".");
