@@ -24,3 +24,7 @@ let grade = function (num) {
 
     } else return "F"
 };
+
+for (i =60; i <=100; i++) {
+    console.log("You get a " + grade(i))
+};
